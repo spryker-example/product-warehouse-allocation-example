@@ -5,22 +5,22 @@
  * For full license information, please view the LICENSE file that was distributed with this source code.
  */
 
-namespace Spryker\Zed\ProductWarehouseAllocationExample\Business\Allocator;
+namespace SprykerExample\Zed\ProductWarehouseAllocationExample\Business\Allocator;
 
 use Generated\Shared\Transfer\ItemTransfer;
 use Generated\Shared\Transfer\OrderTransfer;
 use Generated\Shared\Transfer\ProductWarehouseCriteriaTransfer;
-use Spryker\Zed\ProductWarehouseAllocationExample\Persistence\ProductWarehouseAllocationExampleRepositoryInterface;
+use SprykerExample\Zed\ProductWarehouseAllocationExample\Persistence\ProductWarehouseAllocationExampleRepositoryInterface;
 
 class SalesOrderWarehouseAllocator implements SalesOrderWarehouseAllocatorInterface
 {
     /**
-     * @var \Spryker\Zed\ProductWarehouseAllocationExample\Persistence\ProductWarehouseAllocationExampleRepositoryInterface
+     * @var \SprykerExample\Zed\ProductWarehouseAllocationExample\Persistence\ProductWarehouseAllocationExampleRepositoryInterface
      */
     protected ProductWarehouseAllocationExampleRepositoryInterface $productWarehouseAllocationExampleRepository;
 
     /**
-     * @param \Spryker\Zed\ProductWarehouseAllocationExample\Persistence\ProductWarehouseAllocationExampleRepositoryInterface $productWarehouseAllocationExampleRepository
+     * @param \SprykerExample\Zed\ProductWarehouseAllocationExample\Persistence\ProductWarehouseAllocationExampleRepositoryInterface $productWarehouseAllocationExampleRepository
      */
     public function __construct(ProductWarehouseAllocationExampleRepositoryInterface $productWarehouseAllocationExampleRepository)
     {
