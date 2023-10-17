@@ -30,7 +30,7 @@ use Orm\Zed\Stock\Persistence\SpyStockProductQuery;
  *
  * @SuppressWarnings(PHPMD)
  *
- * @method \Spryker\Zed\ProductWarehouseAllocationExample\Business\ProductWarehouseAllocationExampleFacadeInterface getFacade(?string $moduleName = null)
+ * @method \SprykerExample\Zed\ProductWarehouseAllocationExample\Business\ProductWarehouseAllocationExampleFacadeInterface getFacade(?string $moduleName = null)
  */
 class ProductWarehouseAllocationExampleBusinessTester extends Actor
 {

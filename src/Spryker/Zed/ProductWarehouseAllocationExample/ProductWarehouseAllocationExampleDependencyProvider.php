@@ -5,14 +5,14 @@
  * For full license information, please view the LICENSE file that was distributed with this source code.
  */
 
-namespace Spryker\Zed\ProductWarehouseAllocationExample;
+namespace SprykerExample\Zed\ProductWarehouseAllocationExample;
 
 use Orm\Zed\Stock\Persistence\SpyStockProductQuery;
 use Spryker\Zed\Kernel\AbstractBundleDependencyProvider;
 use Spryker\Zed\Kernel\Container;
 
 /**
- * @method \Spryker\Zed\ProductWarehouseAllocationExample\ProductWarehouseAllocationExampleConfig getConfig()
+ * @method \SprykerExample\Zed\ProductWarehouseAllocationExample\ProductWarehouseAllocationExampleConfig getConfig()
  */
 class ProductWarehouseAllocationExampleDependencyProvider extends AbstractBundleDependencyProvider
 {
